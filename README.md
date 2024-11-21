@@ -1,6 +1,7 @@
 # CSS Cascade, Selection & Pseudo Selectors
-Demonstrate skills of CSS Cascade, Selection & Pseudo Selectors by doing a to-do list.
-check the box to see what happen!
+- Demonstrate skills of CSS Cascade, Selection & Pseudo Selectors by doing a to-do list.
+
+- check the box to see what happen!
 
 ## Installation
 Not need it. 
@@ -25,5 +26,5 @@ Juliana Gambuzza
 MIT
 
 ## References
-https://co.pinterest.com/pin/257479303690375344/
-https://co.pinterest.com/pin/478366791688672848/
+- https://co.pinterest.com/pin/257479303690375344/
+- https://co.pinterest.com/pin/478366791688672848/
