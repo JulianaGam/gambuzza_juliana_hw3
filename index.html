@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>To do page- working with CSS</title>  
+      <link rel="stylesheet" href="css/main.css">  
 </head>
 <body>
-    
+  <header>
+    <h1 id="name">Juliana's To-Do list</h1>
+    <h2 id="title"> CSS Cascade, Selection and Pseudo Selectors</h2>
+  </header>
+  <main> 
+    <section id="to-do">
+      <h2>To-Do</h2>
+      <ul class="to-do"> 
+        <li><input type="checkbox"><span>Design the prototype</span></li>
+        <li><input type="checkbox"><span>Set up the HTML structure for the website</span></li>
+        <li><input type="checkbox"><span>Apply CSS for layout and styling</span></li>
+        <li><input type="checkbox"><span>Optimize the website for mobile and desktop</span></li>
+        <li><input type="checkbox"><span>Resize images</span></li>
+        <li><input type="checkbox"><span>Test the website for bugs and fix them</span></li>
+      </ul>
+    </section>
+
+    <section id="in_progress">
+      <h2> In progress</h2>
+        <ul class="in_progress">
+          <li><input type="checkbox"><span>Gathering assets (images, icons, and content)</span></li>
+          <li><input type="checkbox"><span>Testing user flow in the wireframe</span></li>
+          <li><input type="checkbox"><span>Building the prototype layout in Figma</span></li>
+          <li><input type="checkbox"><span>Finalizing the navigation and menu design details</span></li>
+          <li><input type="checkbox"><span>Organizing folder structure for programming</span></li>
+          <li><input type="checkbox"><span>Researching responsive design techniques </span></li>
+        </ul>
+    </section>
+
+    <section  id="done">
+      <h2> Done</h2>
+      <ul class="done">
+        <li><input type="checkbox"><span>Completed the wireframes</span></li>
+        <li><input type="checkbox"><span>Resized and optimized images for web</span></li>
+        <li><input type="checkbox"><span>Created a sitemap for the website structure</span></li>
+        <li><input type="checkbox"><span>Set up GitHub repository and folder structure</span></li>
+        <li><input type="checkbox"><span>Color scheme and typography for branding</span></li>
+        <li><input type="checkbox"><span>receive feedback from the wireframes</span></li>
+      </ul>
+
+    </section>
+  </main>
 </body>
 </html>
