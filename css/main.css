@@ -1,0 +1,172 @@
+body {
+    background-color:rgba(206, 248, 240, 0.848);
+    /*these properties will be inherited by children elements */
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(69, 69, 69);
+    background-image: url(../images/paper.jpeg)
+
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header h1{
+    text-align: center;
+    padding: 10px;
+}
+
+section{
+    width: 400px;
+    border: 4px solid rgb(246, 246, 111);
+    border-radius: 8px;
+    margin: 10px;
+}
+
+section h2{
+    color: rgb(244, 235, 63);
+    padding: 5px;
+
+}
+
+section:first-of-type{
+    border: 4px solid rgb(247, 244, 176);
+}
+
+#in_progress{
+    border: 4px solid rgb(109, 194, 244);
+}
+#in_progress h2 {
+    color:rgb(104, 198, 253);;
+}
+
+#done{
+    border:  4px solid rgb(190, 114, 215);
+}
+
+#done h2{
+    color: rgb(190, 114, 215);
+}
+
+ul{
+ list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    padding: 6px 8px;
+}
+
+
+.to-do li:nth-child(odd) {
+    background-color: rgba(241, 236, 143, 0.52);
+
+}
+
+.in_progress li:nth-child(odd){
+    background-color: rgba(164, 216, 246, 0.5)
+}
+
+.done li:nth-child(odd){
+    background-color: rgba(225, 164, 245,0.5);
+}
+
+.to-do li:nth-child(odd):hover{background-color: rgb(250, 250, 130);}
+.to-do li:nth-child(even):hover{
+    background-color: rgb(250, 250, 130);
+   }
+
+.in_progress li:nth-child(odd):hover{background-color: rgba(148, 216, 255, 0.847);}
+.in_progress li:nth-child(even):hover{background-color: rgba(148, 216, 255, 0.847);}
+
+.done li:nth-child(odd):hover{background-color: rgba(190, 114, 215, 0.5);}
+.done li:nth-child(even):hover{background-color: rgb(190, 114, 215, 0.5);}
+
+/*.done [type="checkbox"]:checked~span::after{
+    content: "🥳";
+    margin-left: 10px;;}
+
+.in_progress [type="checkbox"]:checked+span::after{
+    content: "👩🏼‍💻";
+    margin-left: 0px;}
+
+.to-do [type="checkbox"]:checked+span::after{
+    content: "📋";
+    margin-left: 10px;}*/
+
+
+#to-do{
+    background-image: url(../images/background.jpeg);
+}
+
+#in_progress{
+    background-image: url(../images/background.jpeg);
+}
+
+#done{
+    background-image: url(../images/background.jpeg);
+}
+
+#title{
+    text-align:center;
+    color: rgb(99, 196, 201);}
+
+#name::before{
+        content: "✨";
+        margin-left: 5px;}
+#name::after{
+    content: "✨";
+    margin-left: 5px;}
+
+
+.to-do [type="checkbox"]:checked + span {
+        text-decoration: line-through; 
+        color: gray; 
+        position: relative;}
+    
+.to-do [type="checkbox"]:checked + span::after {
+        content: "🥳"; 
+        margin-left: 10px;}
+    
+
+.to-do [type="checkbox"] + span {
+        text-decoration: none;
+        color: inherit; }
+    /* Restaura el color original */
+
+
+.in_progress [type="checkbox"]:checked + span {
+         text-decoration: line-through; 
+        color: gray; 
+        position: relative;}
+        
+.in_progress [type="checkbox"]:checked + span::after {
+        content: "👩🏼‍💻"; 
+        margin-left: 10px;}
+        
+    
+.in_progress [type="checkbox"] + span {
+        text-decoration: none;
+        color: inherit; }
+
+.done [type="checkbox"]:checked + span {
+        text-decoration: line-through; 
+        color: gray; 
+        position: relative;}
+           
+.done [type="checkbox"]:checked + span::after {
+        content: "👩🏼‍💻"; 
+        margin-left: 10px;}
+           
+       
+.done [type="checkbox"] + span {
+           text-decoration: none;
+           color: inherit; }
+
+/*drop menu <details <summary>>*/ 
+
